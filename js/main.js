@@ -11,7 +11,7 @@ window.onscroll = () =>{
     header.classList.remove('active');
 }
 var typed = new Typed('.typing-text',{
-    strings:['Front end developer','Front end developer','web developer','web designer'],
+    strings:['Front-end developer','Front-end developer','web developer','web designer'],
     loop:true,
     typeSpeed:150
 });
