@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::before{
+  display: block;
+  content: " ";
+  height: 60px;
+}
+@media  screen and (min-width:768px) {
+  .news-input{
+    width: 50%;
+  }
+}
