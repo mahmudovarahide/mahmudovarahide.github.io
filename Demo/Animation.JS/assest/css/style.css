@@ -1,0 +1,68 @@
+@import url(fontStyle.css);
+
+.section{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.section img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+.section img#stars{
+  height: 100%;
+  object-fit: cover;
+}
+.section img#moon{
+  top: -100%;
+  mix-blend-mode: screen;
+}
+.section img#mountain{
+  bottom: -100%;
+  top: inherit;
+}
+.section img#front{
+  bottom: -120%;
+  top: inherit;
+  z-index: 10000;
+}
+#text{
+  position: absolute;
+  color: #fff;
+  font-size: 4vh;
+  font-weight: 700;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+#btn{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 50px;
+  background-color: #fff;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  font-size: 1.4rem;
+  color: #2b1055;
+}
